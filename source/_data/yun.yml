@@ -2,3 +2,61 @@ avatar:
   url: /images/avatar.jpg
   rounded: true
   opacity: 1
+
+banner:
+  enable: true
+  title: 流连wr返的小站
+  src: /js/ui/banner.js
+
+social:
+  - name: RSS
+    # set rss in your root config
+    # https://github.com/hexojs/hexo-generator-feed
+    link: /atom.xml # config.feed.path
+    icon: icon-rss-line
+    color: orange
+  - name: QQ
+    # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
+    link: https://wpa.qq.com/msgrd?v=3&uin=183867412&site=qq&menu=yes
+    icon: icon-qq-line
+    color: "#12B7F5"
+  - name: GitHub
+    link: https://github.com/odinjaign
+    icon: icon-github-line
+    color: "#181717"
+  - name: E-Mail
+    link: mailto:jaign@outlook.com
+    icon: icon-mail-line
+    color: "#8E71C1"
+  - name: 微博
+    link: https://weibo.com/jizhideyunyoujun
+    icon: icon-weibo-line
+    color: "#E6162D"
+  - name: 网易云音乐
+    link: https://music.163.com/#/user/home?id=247102977
+    icon: icon-netease-cloud-music-line
+    color: "#C20C0C"
+  - name: 知乎
+    link: https://www.zhihu.com/people/yunyoujun/
+    icon: icon-zhihu-line
+    color: "#0084FF"
+  - name: 哔哩哔哩
+    link: https://space.bilibili.com/1579790
+    icon: icon-bilibili-line
+    color: "#FF8EB3"
+  - name: 微信公众号
+    link: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/about/white-qrcode-and-search.jpg
+    icon: icon-wechat-2-line
+    color: "#1AAD19"
+
+girls:
+  enable: true
+
+pages:
+  - name: 可爱的女孩子
+    url: /girls/
+    icon: icon-women-line
+    color: hotpink
+
+# hexo gernerate
+# hexo delpoy
